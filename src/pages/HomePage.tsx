@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import profilePic from "../index-media/profile.png";
 
 export default function HomePage() {
     return (
@@ -8,7 +9,7 @@ export default function HomePage() {
 
                 <div className="profile-row">
                     <div className="profile-image-wrap">
-                        <img src="/mp-3/src/index-media/profile.png" alt="Portrait of Catalina Huynh" />
+                        <img src={profilePic} alt="Portrait of Catalina Huynh" />
                     </div>
                     <p className="bio">
                         My name is Catalina Huynh, and I am a full-time Computer Science Undergraduate at
